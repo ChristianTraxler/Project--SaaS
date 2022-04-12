@@ -25,7 +25,7 @@
     display: block;
     position: absolute;
     right: 0;
-    top: var(--size-50);
+    top: 117px;
     background-image: linear-gradient(
       to right,
       transparent -500%,
@@ -89,7 +89,7 @@
   }
 
   div > span:nth-child(2) {
-    margin-left: 150px;
+    margin-left: 30px;
   }
 
   .nav-bar {
@@ -177,6 +177,10 @@
   /* End of Section Two */
 
   /* Start of Section Three */
+
+  .sec-three { padding-top: inherit; }
+
+  .sec-three-pad { margin-top: 80px; }
 
   .padding {
     padding: var(--size-20);
@@ -377,6 +381,15 @@
 
   /* End of Section Five */
 
+  /* Start of Hire Us Sectoin */
+
+  .form-container {
+    display: block;
+    position: relative;
+    left: 128px;
+    margin: 0 70px 0 0;
+  }
+
   /* Start of Footer Section */
   footer .footer-col {
     grid-row: 1/2;
@@ -488,7 +501,7 @@
 
   [aria-controls="navbarDropdown"] {
     display: block;
-    padding: 4px 20px 6px 20px;
+    padding: 6px 12px 8px 12px;
     border-radius: var(--size-30);
   }
 
@@ -496,7 +509,7 @@
     display: block;
     position: absolute;
     right: 0;
-    top: 104px;
+    top: 95px;
     background-image: linear-gradient(
       to right,
       transparent -250%,
@@ -525,10 +538,16 @@
 
   /* Start of Section Three */
 
+  .sec-three { padding-top: inherit; }
+
+  .sec-three-pad { margin-top: 70px; }
+
   .s3-hdr {
     margin: 0px 0 0 20px;
     padding: 0;
   }
+
+  .section .sec-three-hdr-img { width: inherit; }
 
   /* Start of Section Four */
 
@@ -555,7 +574,11 @@
     width: 90%;
   }
 
-  .christina-right { margin: 0; }
+  .christina-right {
+    position: relative;
+    margin: 0;
+    top: 42px;
+  }
 
   .hubspot-logo { width: 54%; }
 
@@ -564,7 +587,7 @@
 
   .pricing {
     margin: 46px auto;
-    height: 215px;
+    height: 230px;
   }
 
   .price-info-grid {
@@ -591,7 +614,6 @@
   /* Start of Hire Us Section */
 
   .hire-us-block {
-    padding-left: 1rem;
     left: 0;
     width: inherit;
   }
@@ -632,6 +654,8 @@
   .form-container {
     display: flex;
     justify-content: center;
+    left: inherit;
+    margin: inherit;
   }
 
   .form {
@@ -652,9 +676,11 @@
 
   /* Start of Footer Section */
 
-  .footer-top {
+  footer .footer-top {
     position: relative;
     bottom: 70px;
+    left: inherit;
+    margin: inherit;
   }
 
   .group { 
@@ -726,7 +752,7 @@
   /* Start of Section One */
 
   div > span:nth-child(2) {
-    margin-left: 110px;
+    margin-left: -18px;
   }
 
   .img-wrapper {
@@ -740,12 +766,45 @@
 
   /* Start of Section Three */
 
-  .get-btn {
-    margin: -300px 0 0 20px;
-    padding: 10px 18px 10px 18px;
+  .s3-hdr {
+    position: relative;
+    margin: 0;
+    right: 20px;
+    width: 330px;
   }
 
+  .s3-h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .section .sec-three-hdr-img { width: 104%; }
+
+  .banner-one { width: 100%; }
+
+
+  /* Start of Hire Us Section */
+
+  .hire-us-block {
+    width: 324px;
+  }
+
+  .form-container {
+    display: block;
+    position: relative;
+    left: 2px;
+    margin: 0 70px 0 0;
+  }
+
+  .form {
+    margin: 0px 0px 0 40px;
+    width: 78%;
+  }
+
+
   /* Start of Footer Section */
+
+  footer .footer-top { right: 3%; }
 
   
 }
