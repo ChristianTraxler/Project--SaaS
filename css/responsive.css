@@ -222,6 +222,7 @@
   .christina-container {
     flex-direction: column;
     gap: 5rem;
+    margin: 0 min(10vw, 5rem);
   }
 
   .dots-pic-div {
@@ -233,6 +234,7 @@
 
   .christina-right { 
     margin: 100px 0 0 0;
+    width: 86%;
   }
 
   .hubspot-logo { width: 34%; }
