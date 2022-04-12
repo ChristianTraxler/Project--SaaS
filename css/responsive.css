@@ -205,8 +205,7 @@
   }
 
   .banner-two {
-    height: 200px;
-    width: 74%;
+    height: 264px;
     margin: 54px 0px 0px 54px;
     border-radius: var(--size-10);
   }
@@ -231,6 +230,10 @@
   }
 
   .christina-pic-div { width: 200%; }
+
+  .christina-right { 
+    margin: 100px 0 0 0;
+  }
 
   .hubspot-logo { width: 34%; }
 
@@ -259,7 +262,7 @@
   .pricing {
     box-shadow: 0px 6px 20px -12px #888888;
     width: 52%;
-    height: 236px;
+    height: 204px;
     border-radius: 5px;
     margin: 46px 0 0 76px;
     padding: 30px 14px 30px 14px;
@@ -388,6 +391,20 @@
     margin: 0 70px 0 0;
   }
 
+  .hire-us-txt, .charlotte, .slack { display: none; }
+
+  .james {
+    display: inherit;
+    margin: 18px 0 0 0;
+    font-size: var(--size-18);
+    color: white;
+  }
+
+  .hubspot2 {
+    display: inherit;
+    font-size: 15px;
+  }
+
   /* Start of Footer Section */
   footer .footer-col {
     grid-row: 1/2;
@@ -408,6 +425,8 @@
   .group { 
     display: inherit;
     gap: 3rem;
+    left: 10%;
+    width: inherit;
   }
 
   .careers {
@@ -550,13 +569,13 @@
 
   /* Start of Section Four */
 
-  .banner-two {
-    position: relative;
-    left: 4%;
-  }
-
   .reasons {
     grid-template-columns: 1fr;
+  }
+
+  .banner-two {
+    position: relative;
+    right: 2%;
   }
 
   .circle-div::after {
@@ -686,6 +705,7 @@
     display: inherit;
     gap: 1rem;
     width: auto;
+    left: inherit;
   }
 
   .company,
@@ -780,6 +800,13 @@
   .section .sec-three-hdr-img { width: 104%; }
 
   .banner-one { width: 100%; }
+
+  /* Start of Section Four */
+
+  .banner-two {
+    position: relative;
+    right: 3%;
+  }
 
 
   /* Start of Hire Us Section */
