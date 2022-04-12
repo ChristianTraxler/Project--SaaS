@@ -7,9 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  html {
-    scroll-behavior: smooth;
-  }
+  html { scroll-behavior: smooth; }
 
   [aria-controls="navbarDropdown"] {
     display: block;
@@ -17,9 +15,7 @@
     border-radius: var(--size-30);
   }
 
-  [aria-expanded="false"] ~ ul {
-    display: none;
-  }
+  [aria-expanded="false"] ~ ul { display: none; }
 
   [aria-expanded="true"] ~ ul {
     display: block;
@@ -49,13 +45,9 @@
     padding: 24px 0 10px 0;
   }
 
-  .nav-link {
-    margin: 0 0 6px 0;
-  }
+  .nav-link { margin: 0 0 6px 0; }
 
-  a {
-    text-decoration: none;
-  }
+  a { text-decoration: none; }
 
   .menu2 {
     font-size: var(--size-16);
@@ -88,9 +80,7 @@
     );
   }
 
-  div > span:nth-child(2) {
-    margin-left: 30px;
-  }
+  div > span:nth-child(2) { margin-left: 30px; }
 
   .nav-bar {
     display: flex;
@@ -98,9 +88,7 @@
     align-items: center;
   }
 
-  .front-logo {
-    width: 30%;
-  }
+  .front-logo { width: 30%; }
 
   .nav-menu {
     display: none;
@@ -120,9 +108,7 @@
     grid-template-rows: 1fr 1fr;
   }
 
-  .s1-header {
-    width: 80%;
-  }
+  .s1-header { width: 80%; }
 
   .slide-top {
     -webkit-animation: slide-top 0.5s ease-in-out both;
@@ -168,9 +154,7 @@
     transition: 0.5s;
   }
 
-  .responsive:hover {
-    transform: scale(1.1);
-  }
+  .responsive:hover { transform: scale(1.1); }
 
   /* End of Section Two */
 
@@ -180,29 +164,19 @@
 
   .sec-three-pad { margin-top: 80px; }
 
-  .padding {
-    padding: var(--size-20);
-  }
+  .padding { padding: var(--size-20); }
 
-  .s3-hdr {
-    margin-left: 50px;
-  }
+  .s3-hdr { margin-left: 50px; }
 
   /* End of Section Three */
 
   /* Start of Section Four */
 
-  .sec-four {
-    margin-top: var(--size-50);
-  }
+  .sec-four { margin-top: var(--size-50); }
 
-  .circle-div::after {
-    display: none;
-  }
+  .circle-div::after { display: none; }
 
-  .reasons {
-    grid-template-columns: 1fr 1fr;
-  }
+  .reasons { grid-template-columns: 1fr 1fr; }
 
   .banner-two {
     height: 264px;
@@ -239,27 +213,13 @@
 
   .hubspot-logo { width: 34%; }
 
-  /* .best { flex-wrap: nowrap; } */
-
-  /* .weebly {
-    display: none;
-  }
-
-  .uber {
-    display: none;
-  } */
-
   /* End of Section Four */
 
   /* Start of Section Five */
 
-  .price-title {
-    margin: 110px 0 14px 0;
-  }
+  .price-title { margin: 110px 0 14px 0; }
 
-  .price-grid {
-    display: inherit;
-  }
+  .price-grid { display: inherit; }
 
   .pricing {
     box-shadow: 0px 6px 20px -12px #888888;
@@ -275,13 +235,9 @@
     cursor: pointer;
   }
 
-  .price-btn:hover {
-    transform: scale(1.1);
-  }
+  .price-btn:hover { transform: scale(1.1); }
 
-  .row {
-    width: 100%;
-  }
+  .row { width: 100%; }
 
   .row2 {
     margin: -16px 0 0 0;
@@ -341,10 +297,7 @@
     margin-top: 0;
   }
 
-  .fname,
-  .lname {
-    width: 90%;
-  }
+  .fname, .lname { width: 90%; }
 
   .email {
     width: 90%;
@@ -360,9 +313,7 @@
     font-size: var(--size-12);
   }
 
-  .text-area {
-    margin-top: 2px;
-  }
+  .text-area { margin-top: 2px; }
 
   .emails {
     position: relative;
@@ -378,9 +329,7 @@
     cursor: pointer;
   }
 
-  .submit:hover {
-    transform: scale(1.1);
-  }
+  .submit:hover { transform: scale(1.1); }
 
   /* End of Section Five */
 
@@ -420,9 +369,7 @@
     left: 2%;
   }
 
-  .footer-logo {
-    width: 45%;
-  }
+  .footer-logo { width: 45%; }
 
   .group { 
     display: inherit;
@@ -442,17 +389,13 @@
     cursor: pointer;
   }
 
-  .careers-btn:hover {
-    transform: scale(1.1);
-  }
+  .careers-btn:hover { transform: scale(1.1); }
 
   .features { left: -4%; }
 
   .documentation { height: 145px; }
 
-  .help-icon {
-    width: 4%;
-  }
+  .help-icon { width: 4%; }
 
   /* End of Footer Section */
 
@@ -483,19 +426,13 @@
 /* Mobile Phones- iPhone Pro Max and above */
 
 @media screen and (max-width: 599px) {
-  html {
-    scroll-behavior: smooth;
-  }
+  html { scroll-behavior: smooth; }
 
   img { width: inherit; }
 
-  .nav-header {
-    margin: 0px 1.5rem 22px 1.5rem;
-  }
+  .nav-header { margin: 0px 1.5rem 22px 1.5rem; }
 
-  div > span:nth-child(2) {
-    margin-left: 0;
-  }
+  div > span:nth-child(2) { margin-left: 0; }
 
   .menu-bar {
     background: linear-gradient(
@@ -545,9 +482,7 @@
     margin: 32px 0 0 0;
   }
 
-  .front-logo {
-    width: 38%;
-  }
+  .front-logo { width: 38%; }
 
   /* Start of Section Two */
 
@@ -571,9 +506,7 @@
 
   /* Start of Section Four */
 
-  .reasons {
-    grid-template-columns: 1fr;
-  }
+  .reasons { grid-template-columns: 1fr; }
 
   .banner-two {
     position: relative;
@@ -610,9 +543,7 @@
     height: 230px;
   }
 
-  .price-info-grid {
-    display: initial;
-  }
+  .price-info-grid { display: initial; }
 
   .card {
     margin: 18px 0 0 50px;
@@ -638,9 +569,7 @@
     width: inherit;
   }
 
-  .hire-us-subtxt {
-    font-size: var(--size-16);
-  }
+  .hire-us-subtxt { font-size: var(--size-16); }
 
   .hire-us-txt, .charlotte, .slack { display: none; }
 
@@ -710,16 +639,9 @@
     left: inherit;
   }
 
-  .company,
-  .features,
-  .documentation,
-  .resources {
-    margin: 0;
-  }
+  .company, .features, .documentation, .resources { margin: 0; }
 
-  .documentation { 
-    height: inherit;
-  }
+  .documentation { height: inherit; }
 
   .features { left: 0; }
 
@@ -747,9 +669,7 @@
     border-radius: var(--size-30);
   }
 
-  div > span:nth-child(2) {
-    margin-left: 122px;
-  }
+  div > span:nth-child(2) { margin-left: 122px; }
 
   /* Start of Section Three */
 
@@ -772,9 +692,7 @@
 
   /* Start of Section One */
 
-  div > span:nth-child(2) {
-    margin-left: -18px;
-  }
+  div > span:nth-child(2) { margin-left: -18px; }
 
   .img-wrapper {
     position: absolute;
@@ -813,9 +731,7 @@
 
   /* Start of Hire Us Section */
 
-  .hire-us-block {
-    width: 324px;
-  }
+  .hire-us-block { width: 324px; }
 
   .form-container {
     display: block;
