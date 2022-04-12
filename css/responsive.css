@@ -593,6 +593,7 @@
   .hire-us-block {
     padding-left: 1rem;
     left: 0;
+    width: inherit;
   }
 
   .hire-us-subtxt {
