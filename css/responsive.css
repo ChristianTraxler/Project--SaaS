@@ -226,7 +226,7 @@
     width: 52%;
     height: 204px;
     border-radius: 5px;
-    margin: 46px 0 0 76px;
+    margin: 46px 0 0 154px;
     padding: 30px 14px 30px 14px;
   }
 
@@ -338,9 +338,17 @@
   .form-container {
     display: block;
     position: relative;
-    left: 128px;
+    left: 40px;
     margin: 0 70px 0 0;
   }
+
+  .form {
+    background-color: white;
+    margin: 1rem;
+    padding: 16px 80px 30px 80px;
+    border-radius: 5px;
+    width: inherit;
+}
 
   .hire-us-txt, .charlotte, .slack { display: none; }
 
@@ -369,7 +377,16 @@
     left: 2%;
   }
 
-  .footer-logo { width: 45%; }
+  .footer-logo {
+    position: relative;
+    left: 10%;
+    width: 45%;
+  }
+
+  .contact-info {
+    position: relative;
+    left: 10%;
+  }
 
   .group { 
     display: inherit;

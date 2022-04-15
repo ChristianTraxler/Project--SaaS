@@ -6,17 +6,9 @@
   margin: 0 1.5rem;
 }
 
-.nav-hdr-links {
-  justify-content: center;
-  align-items: center;
-  color: var(--font-color-base);
-}
+.nav-hdr-links { color: var(--font-color-base); }
 
-.nav-hdr-links2 {
-  justify-content: center;
-  align-items: center;
-  margin-right: var(--size-30);
-}
+.nav-hdr-links2 { margin-right: var(--size-30); }
 
 .arw-left {
   width: 6px;
